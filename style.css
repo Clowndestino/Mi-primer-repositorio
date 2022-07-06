@@ -243,28 +243,3 @@ td{
     background: white;
 }
 
-@media screen and (max-width: 480) {
-    .grid{
-        display: grid;
-       grid-template-columns: repeat(1, 5fr);
-       gap: 5px;
-       grid-template-rows: repeat(7, 100px);
-       grid-auto-rows: minmax(100px, auto);
-       align-items: stretch;
-    }
-
-    .element4 {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1200) {
-    .grid{
-        display: grid;
-       grid-template-columns: repeat(3, 5fr);
-       gap: 5px;
-       grid-template-rows: repeat(7, 200px);
-       grid-auto-rows: minmax(100px, auto);
-       align-items: stretch;
-    }
-}
